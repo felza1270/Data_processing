@@ -27,8 +27,8 @@ def sqlInsert(datafr):
     trust = "Trusted_Connection=yes"
     m_server = 'K12-SQLM'
     m_database = 'K12Design'
-    m_username = "intumit"
-    m_password = "2wsx#EDC4rfv"
+    m_username = "temp"
+    m_password = "temp"
     table = 'DesignTenWeb_Temp'
     driver = 'SQL Server Native Client 11.0'
 
