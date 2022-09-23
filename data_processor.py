@@ -202,9 +202,9 @@ def removeNan():
 
 #BULK INSERT dataframe into SQL Server DB table
 def sqlInsert(datafr):
-    server = 'HP-DB01'
-    database = 'K12Design'
-    table = 'DesignTenWeb_Temp'
+    server = 'db'
+    database = 'dbname'
+    table = 'tbl_name'
     driver = 'SQL Server Native Client 11.0'
 
     split = 10000
